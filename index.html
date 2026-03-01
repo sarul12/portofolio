@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sarul Gunawan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- BAGIAN LOADING PAGE -->
+  <div class="loader-wrapper" aria-label="Loading">
+    <div class="loader" aria-hidden="true"></div>
+    <p>Loading Portfolio...</p>
+  </div>
+
+  <!-- BAGIAN NAVBAR -->
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Go to Home">Sarul.works</a>
+
+      <!-- Mobile Menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" />
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Project</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="hire-btn">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="container hero-wrap">
+      <div class="hero-text">
+        <p class="kicker">Frontend Developer • UI Modern</p>
+
+        <h1 class="hero-title">
+          Halo, I am <br />
+          <span class="type-wrap">
+            <span class="type">Sarul Gunawan</span>
+          </span>
+        </h1>
+
+        <p class="desc">
+          Frontend developer who creates modern, clean, and responsive websites.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn-primary" href="#projects">See Project</a>
+          <a class="btn-ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card hover-3d">
+        <div class="hero-img">
+          <img src="img.jpg" alt="Foto profil Sarul Gunawan" />
+        </div>
+
+        <div class="hero-badge">
+          <b>Available</b>
+          <span>Freelance / Collaborations</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- BAGIAN ABOUT -->
+  <section id="about" class="section reveal-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>About Me</h2>
+          <p>I am a developer who focuses on modern UI and interactive animations.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card reveal-item hover-3d">
+          <h3>🎓Academic</h3>
+          <p>I am a student in the Information Systems Study Program who studies the integration between information technology and business processes.</p>
+        </div>
+
+        <div class="card reveal-item hover-3d">
+          <h3>💡 Interests & Skills</h3>
+          <p>I have an interest in web development, system analysis, and the use of data-driven technologies and artificial intelligence (AI).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN PROJECTS -->
+  <section id="projects" class="section reveal-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>My Project</h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <a class="project-card reveal-item hover-3d"
+           href="https://dongkak.topupaja.com "
+           target="_blank" rel="noopener">
+          <h3>Digital Website Top-up</h3>
+          <p>A digital top-up website with a simple design and a structured product category system. Prioritizes user experience, responsiveness, and a clean appearance.</p>
+          <div class="tagrow">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+        <a class="project-card reveal-item hover-3d"
+           href="https://wa.me/62895428752191?text=.listdg"
+           target="_blank" rel="noopener">
+          <h3>Digital WhatsApp Bot</h3>
+          <p>WhatsApp bot for selling digital products with an automatic QRIS payment system, automatic invoice creation, and real-time payment confirmation.</p>
+          <div class="tagrow">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Node,js</span>
+            <span class="tag">API</span>
+          </div>
+        </a>
+
+        <a class="project-card reveal-item hover-3d"
+           href="#"
+           target="_blank" rel="noopener">
+          <h3>Web Application (soon)</h3>
+          <p>Web-based merchant dashboard for monitoring transactions, settlement management, and real-time digital payment performance analysis.</p>
+          <div class="tagrow">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN SKILLS -->
+  <section id="skills" class="section reveal-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Skill</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-box reveal-item hover-3d">
+          <h3>Core Skills</h3>
+
+          <div class="skill">
+            <span class="skill-name">HTML</span>
+            <div class="meter" style="--w: 50%">
+              <i class="bar" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">CSS</span>
+            <div class="meter" style="--w: 15%">
+              <i class="bar" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Responsive Design</span>
+            <div class="meter" style="--w: 25%">
+              <i class="bar" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-box reveal-item hover-3d">
+          <h3>Supporting</h3>
+
+          <div class="skill">
+            <span class="skill-name">UI/UX</span>
+            <div class="meter" style="--w: 25%">
+              <i class="bar" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Design System</span>
+            <div class="meter" style="--w: 17%">
+              <i class="bar" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Performance</span>
+            <div class="meter" style="--w: 48%">
+              <i class="bar" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN CONTACT -->
+  <footer id="contact" class="footer reveal-section">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-left">
+          <h3>Need a Website or Digital Solution?</h3>
+          <p>
+            I am ready to help build interactive web applications and AI-based systems.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn-primary" href="mailto:sarulgnwn02@gmail.com">My Email</a>
+            <a class="btn-ghost" href="#home">Back to Top</a>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <a class="contact-pill reveal-item hover-3d" href="https://instagram.com/sarllgnwn_" target="_blank" rel="noopener">
+            <b>Instagram</b><span>@sarllgnwn_</span>
+          </a>
+
+          <a class="contact-pill reveal-item hover-3d" href="https://github.com/sarul12" target="_blank" rel="noopener">
+            <b>GitHub</b><span>sarul12</span>
+          </a>
+
+          <a class="contact-pill reveal-item hover-3d" href="https://wa.me/6282273093576" target="_blank" rel="noopener">
+            <b>WhatsApp</b><span>click here</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        © 2026 Sarul Gunawan — All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
